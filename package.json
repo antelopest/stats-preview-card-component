@@ -1,0 +1,19 @@
+{
+  "name": "stats-preview-card-component",
+  "version": "1.0.0",
+  "description": "## Idea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antelopest/stats-preview-card-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antelopest/stats-preview-card-component/issues"
+  },
+  "homepage": "https://github.com/antelopest/stats-preview-card-component#readme"
+}

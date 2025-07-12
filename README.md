@@ -2,6 +2,8 @@
 
 ## Idea
 
+The idea, design, assets (fonts, images, icons) for the Stats Preview Card Component UI project are taken from
+[FrontendMentor.io](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
 ## GitHub Pages
 
@@ -9,7 +11,15 @@
 
 ## Tech stack
 
+* **Bundler:** Webpack
+* **CSS:** PostCSS
 
+## Design
+
+* [Desktop design](design/desktop-design.jpg)
+* [Mobile design](design/mobile-design.jpg)
+
+Support both desktop and mobile
 
 ## Scripts
 
