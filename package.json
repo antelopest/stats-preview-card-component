@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/antelopest/stats-preview-card-component/issues"
   },
-  "homepage": "https://github.com/antelopest/stats-preview-card-component#readme",
+  "homepage": "https://antelopest.github.io/stats-preview-card-component",
   "dependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
