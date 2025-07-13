@@ -1,16 +1,18 @@
 {
   "name": "stats-preview-card-component",
   "version": "1.0.0",
-  "description": "## Idea",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antelopest/stats-preview-card-component.git"
   },
-  "author": "",
+  "author": "Simon Belenko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/antelopest/stats-preview-card-component/issues"
