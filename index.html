@@ -18,7 +18,7 @@
     <main class="main">
       <div class="container">
         <section class="card">
-          <div class="card__image"></div>
+          <div class="card__image" aria-hidden="true" role="presentation"></div>
           <div class="card__content">
             <header class="header">
               <h1 class="header__title">
@@ -31,7 +31,7 @@
                 efficiency.
               </p>
             </header>
-            <article class="indicators">
+            <div class="indicators">
               <div class="indicator">
                 <h2 class="indicator__title">10k+</h2>
                 <p class="indicator__description">companies</p>
@@ -44,12 +44,11 @@
                 <h2 class="indicator__title">12M+</h2>
                 <p class="indicator__description">queries</p>
               </div>
-            </article>
+            </div>
           </div>
         </section>
       </div>
     </main>
-
-    <script type="module" src="/main.js" defer></script>
+    <script type="module" src="./main.js" defer></script>
   </body>
 </html>

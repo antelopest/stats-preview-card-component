@@ -8,10 +8,7 @@
   --main-header-color: hsl(0, 0%, 100%);
   --main-paragraph-color: hsla(0, 0%, 100%, 0.75);
   --indicator-header: hsl(0, 0%, 100%, 0.6);
-  --card-image-linegradient: linear-gradient(
-    hsl(277, 64%, 61%, 0.7),
-    hsl(277, 64%, 61%, 0.7)
-  );
+  --card-image-linegradient: hsl(277, 64%, 61%, 0.7);
 
   /* Fonts */
   --font-size: 18px;
@@ -73,31 +70,31 @@ body {
 
 @media (min-width: 540px) {
   .container {
-    width: var(--sm);
+    max-width: var(--sm);
   }
 }
 
 @media (min-width: 720px) {
   .container {
-    width: var(--md);
+    max-width: var(--md);
   }
 }
 
 @media (min-width: 960px) {
   .container {
-    width: var(--lg);
+    max-width: var(--lg);
   }
 }
 
 @media (min-width: 1140px) {
   .container {
-    width: var(--xl);
+    max-width: var(--xl);
   }
 }
 
 @media (min-width: 1320px) {
   .container {
-    width: var(--xxl);
+    max-width: var(--xxl);
   }
 }
 
@@ -109,39 +106,20 @@ body {
   grid-template-areas: 'image' 'content';
 }
 
-@media (min-width: 960px) {
-  .card {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'content image';
-  }
-}
-
-@media (min-width: 1140px) {
-  .card {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'content image';
-  }
-}
-
-@media (min-width: 1320px) {
-  .card {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'content image';
-  }
-}
-
 .card__image {
   grid-area: image;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   background:
-    var(--card-image-linegradient),
+    linear-gradient(
+      var(--card-image-linegradient),
+      var(--card-image-linegradient)
+    ),
     url('./assets/images/image-header-mobile.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 15rem;
-  container-type: inline-size;
   position: relative;
 }
 
@@ -168,7 +146,10 @@ body {
 @media (min-width: 960px) {
   .card__image {
     background:
-      var(--card-image-linegradient),
+      linear-gradient(
+        var(--card-image-linegradient),
+        var(--card-image-linegradient)
+      ),
       url('./assets/images/image-header-desktop.jpg');
     height: 100%;
     background-position: center;
@@ -210,7 +191,6 @@ body {
   justify-items: center;
   align-items: center;
   gap: 2rem;
-  container-type: inline-size;
 }
 
 .indicator {
@@ -265,6 +245,11 @@ body {
 }
 
 @media (min-width: 960px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'content image';
+  }
+
   .card__content {
     padding: 3rem;
     gap: 3rem;
