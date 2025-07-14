@@ -7,7 +7,7 @@ The idea, design, assets (fonts, images, icons) for the Stats Preview Card Compo
 
 ## GitHub Pages
 
-[Stats Preview Card Component]()
+[Stats Preview Card Component](https://antelopest.github.io/stats-preview-card-component)
 
 ## Tech stack
 
@@ -24,5 +24,5 @@ Support both desktop and mobile
 ## Scripts
 
 * `npm run dev` - dev build and start dev server
-* `npm run build` - prod build
-* `npm run deploy` - GitHub Pages deploy
+* `npm run build` - build
+* `npm run deploy` - build && deploy
