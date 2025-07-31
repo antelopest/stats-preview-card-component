@@ -11,7 +11,7 @@ The idea, design, assets (fonts, images, icons) for the Stats Preview Card Compo
 
 ## Tech stack
 
-* **Bundler:** Webpack
+* **Bundler:** Vite
 * **CSS:** PostCSS
 
 ## Design
