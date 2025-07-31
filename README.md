@@ -7,7 +7,7 @@ The idea, design, assets (fonts, images, icons) for the Stats Preview Card Compo
 
 ## GitHub Pages
 
-[Stats Preview Card Component](https://antelopest.github.io/stats-preview-card-component)
+[Live demo](https://antelopest.github.io/stats-preview-card-component)
 
 ## Tech stack
 
